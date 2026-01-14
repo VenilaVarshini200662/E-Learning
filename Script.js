@@ -15,7 +15,7 @@ function openCourse3() {
 }
 
 function markCompleted1() {
-  progress1 = Math.min(100, Number(progress1) + 20);
+  progress1 = Math.min(120, Number(progress1) + 20);
   if(Number(progress1)>100){
     progress1=Number(80);
   }
@@ -34,7 +34,7 @@ document.addEventListener("DOMContentLoaded", () => {
 });
 
 function markCompleted2() {
-  progress2 = Math.min(100, Number(progress2) + 20);
+  progress2 = Math.min(120, Number(progress2) + 20);
   if(Number(progress2)>100){
     progress2=Number(80);
   }
@@ -52,7 +52,7 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 });
 function markCompleted3() {
-  progress3 = Math.min(100, Number(progress3) + 20);
+  progress3 = Math.min(120, Number(progress3) + 20);
   if(Number(progress3)>100){
     progress3=Number(80);
   }
@@ -70,3 +70,4 @@ document.addEventListener("DOMContentLoaded", () => {
   }
 
 });
+
